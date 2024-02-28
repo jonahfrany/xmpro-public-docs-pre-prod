@@ -1,4 +1,4 @@
-name: Scrape XMPro YouTube Transcripts and Commit
+name: Scrape XMPro Blogs and Commit
 
 on:
   workflow_dispatch:  # Allows manual trigger from GitHub UI
@@ -17,10 +17,10 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install youtube-transcript-api
-          pip install scrapetube
+          pip install beautifulsoup4
+          pip install requests
       - name: Run script
-        run: python scripts/scrape_xmpro_yt_transcripts.py
+        run: python scripts/scrape-xmpro-blogs.py
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"

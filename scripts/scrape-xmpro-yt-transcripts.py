@@ -1,3 +1,23 @@
+import json
+import scrapetube
+from youtube_transcript_api import YouTubeTranscriptApi
+from time import sleep
+import os
+from pathlib import Path
+
+config_file = Path(r"scripts/scrape-xmpro-yt-transcripts-config.json")
+
+config = None
+
+with open(config_file, "rb") as file:
+    config = json.load(file)
+
+if config is None:
+    raise Exception(f"No config defined in file at {config_file}")
+
+
+os.makedirs(config["folderPath"], exist_ok=True)
+
 import re
 
 emoji_pattern = re.compile("["
@@ -32,10 +52,7 @@ def make_windows_compatible_filename(filename):
     return filename
 
 
-import scrapetube
-from youtube_transcript_api import YouTubeTranscriptApi
-from time import sleep
-import os
+# YT
 
 videos = scrapetube.get_channel(channel_username="XMPRO")
 
@@ -47,12 +64,13 @@ for video in videos:
     video_id = video['videoId']
 
     title = make_windows_compatible_filename(title)
-    filename = f'YouTube/{title}.md'
+    filename = f'{config["folderPath"]}/{title}.md'
 
     
-    if os.path.exists(filename):
-        # continue
-        ...
+    if os.path.exists(filename) and config["clean"]:
+        continue
+
+    
 
 
     try:
