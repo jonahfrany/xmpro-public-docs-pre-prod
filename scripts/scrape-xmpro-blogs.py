@@ -5,6 +5,24 @@ from urllib.parse import urljoin
 from time import sleep
 import re
 from pathlib import Path
+import json
+
+import os
+from pathlib import Path
+
+config_file = Path(r"scripts/scrape-xmpro-blogs-config.json")
+
+config = None
+
+with open(config_file, "rb") as file:
+    config = json.load(file)
+
+if config is None:
+    raise Exception(f"No config defined in file at {config_file}")
+
+os.makedirs(config["folderPath"], exist_ok=True)
+
+
 
 
 class BlogScraper:
@@ -88,7 +106,7 @@ class BlogScraper:
                 paragraphs = soup.find('div', class_='entry-content').find_all('p')
                 content = '\n'.join(p.get_text() for p in paragraphs)
 
-                print(f"Title: {title}\nContent: {content}\n\n")
+                # print(f"Title: {title}\nContent: {content}\n\n")
 
                 if save:
                     # Normalize folder and file paths
@@ -116,5 +134,5 @@ class BlogScraper:
 
 scraper = BlogScraper("https://xmpro.com/category/blog/")
 
-scraper.scrape(save=True, folder_path="External Content/Blogs")
+scraper.scrape(save=True, folder_path=config["folderPath"])
 
