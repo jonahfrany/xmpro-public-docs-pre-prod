@@ -5,7 +5,7 @@
 ## TESTING TO BE REMOVED - external content
 
 * [Blogs](external-content/Blogs/README.md)
-* [YouTube]()
+* [YouTube](external-content/Blogs)
 * [...]()
 
 ## Getting Started
