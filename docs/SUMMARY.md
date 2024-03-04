@@ -2,6 +2,9 @@
 
 * [What is XMPro?](README.md)
 
+## TESTING TO BE REMOVED - external content
+* [Blogs](external-content/Blogs/10%20Predictive%20Analytics%20Use%20Cases%20By%20Industry%20%20XMP.md)
+
 ## Getting Started
 
 * [Browser Requirements](getting-started/browser-requirements.md)
