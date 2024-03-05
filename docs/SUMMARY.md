@@ -2,12 +2,6 @@
 
 * [What is XMPro?](README.md)
 
-## TESTING TO BE REMOVED - external content
-
-* [Blogs](external-content/Blogs/README.md)
-* [YouTube](external-content/youtube)
-* [...]()
-
 ## Getting Started
 
 * [Browser Requirements](getting-started/browser-requirements.md)
@@ -30,6 +24,9 @@
   * [Implementation](resources/faqs/implementation.md)
   * [Configuration](resources/faqs/configuration.md)
   * [General](resources/faqs/general.md)
+  * [External Content](external-content/Blogs/README.md)
+    * [Blogs](external-content/Blogs/README.md)
+    * [YouTube](external-content/youtube)
 
 ## Concepts
 
