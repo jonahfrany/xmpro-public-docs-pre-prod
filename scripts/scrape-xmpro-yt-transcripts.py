@@ -48,6 +48,7 @@ def make_windows_compatible_filename(filename):
     
     # Trim spaces and periods from the end
     filename = filename.rstrip('. ')
+    filename = filename.replace(" ", "-").lower()
     
     return filename
 

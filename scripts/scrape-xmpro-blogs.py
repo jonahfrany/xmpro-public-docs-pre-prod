@@ -115,6 +115,7 @@ class BlogScraper:
                     
                     # Safe file naming
                     safe_title = re.sub(r'[^\w\s]', '', title)[:50].strip() or "Untitled"
+                    safe_title = safe_title.replace(" ", "-").lower()
                     filename = path / f"{safe_title}.md"
                     
                     with open(filename, 'w', encoding='utf-8') as file:
