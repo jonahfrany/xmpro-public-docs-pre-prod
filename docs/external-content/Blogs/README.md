@@ -1,4 +1,5 @@
 # Blogs
+
 * [10 Predictive Analytics Use Cases By Industry  Xmp](external-content/blogs/10-predictive-analytics-use-cases-by-industry--xmp.md)
 * [3 Patterns Of Industrial Iot Use Cases  Xmpro](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
 * [3 Ways The Internet Of Things Is Transforming Fiel](external-content/blogs/3-ways-the-internet-of-things-is-transforming-fiel.md)
