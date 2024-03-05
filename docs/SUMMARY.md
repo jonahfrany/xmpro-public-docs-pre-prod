@@ -27,7 +27,6 @@
 * [External Content](external-content/README.md)
 * [Blogs](external-content/blogs/README.md)
 * [YouTube](external-content/youtube/README.md)
-  * [TEST](external-content/youtube/xmpro-version-6---introducing-the-next-generation-bpm-for-intelligent-business-operations/README.md)
 
 ## Concepts
 
