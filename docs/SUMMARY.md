@@ -24,9 +24,9 @@
   * [Implementation](resources/faqs/implementation.md)
   * [Configuration](resources/faqs/configuration.md)
   * [General](resources/faqs/general.md)
-  * [External Content](external-content/README.md)
-    * [Blogs](external-content/blogs/README.md)
-    * [YouTube](external-content/youtube/README.md)
+* [External Content](external-content/README.md)
+  * [Blogs](external-content/blogs/README.md)
+  * [YouTube](external-content/youtube/README.md)
 
 ## Concepts
 
