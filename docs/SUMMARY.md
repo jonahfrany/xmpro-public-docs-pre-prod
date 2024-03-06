@@ -26,7 +26,7 @@
   * [General](resources/faqs/general.md)
   * [External Content](external-content/README.md)
     * [About](docs\external-content\about\README.md)
-      * [About - Learn More A](docs/external-content/about\About - Learn More A.md)
+      *[3 Patterns of Industrial IoT Use Cases XMPro.md](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
       * [Partners - XMPRO](docs/external-content/about\Partners - XMPRO.md)
       * [Press Room - XMPRO](docs/external-content/about\Press Room - XMPRO.md)
     * [Blogs](external-content/blogs/README.md)
