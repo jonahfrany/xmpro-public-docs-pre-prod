@@ -27,8 +27,17 @@
   * [External Content](external-content/README.md)
     * [Blogs](external-content/blogs/README.md)
       * [3 Patterns of Industrial IoT Use Cases XMPro.md](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
+      * [3 Ways The Internet Of Things Is Transforming The Fiel.md](external-content\Blogs\3-ways-the-internet-of-things-is-transforming-fiel.md)
+      * [6 Myths About Machine Learning.md](external-content\Blogs\6-myths-about-machine-learning--xmpro.md)
+      * [7 Trends For Industrial Digital Twins In 2022.md](external-content\Blogs\7-trends-for-industrial-digital-twins-in-2022--xmp.md)
+      * [10 Predictive Analytics Use Cases By Industry.md](external-content\Blogs\10-predictive-analytics-use-cases-by-industry--xmp.md)
+      * [Accelerate Your AI Workflow The 3 Key Business Adv.md](external-content\Blogs\accelerate-your-ai-workflow-the-3-key-business-adv.md)
+      * [Benefits Of BPM v10.md](external-content\Blogs\benefits-of-bpm-v-10--xmpro.md)
     * [YouTube](external-content/youtube/README.md)
       * [Jan 2023](external-content/youtube/JAN2023.md)
+      * [Feb 2023](external-content\youtube\FEB2023.md)
+      * [March 2023](external-content\youtube\MARCH2023.md)
+      * [April 2023](external-content\youtube\APRIL2023.md)
 
 ## Concepts
 
