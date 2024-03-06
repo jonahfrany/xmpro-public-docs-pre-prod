@@ -42,7 +42,8 @@
       * [Digital Twin Applications For Realtime Operations](external-content/blogs/digital-twin-applications-for-realtime-operations.md)
     * YouTube
       * [Jan 2023](external-content/youtube/jan-2023.md)
-      * [Feb 2023](external-content/youtube/FEB2023.md)
+      * [Feb 2023](external-content/youtube/feb-2023.md)
+      * [March 2023](external-content/youtube/march-2023.md)
 
 ## Concepts
 
