@@ -24,9 +24,10 @@
   * [Implementation](resources/faqs/implementation.md)
   * [Configuration](resources/faqs/configuration.md)
   * [General](resources/faqs/general.md)
-* [External Content](external-content/README.md)
-* [Blogs](external-content/blogs/README.md)
-* [YouTube](external-content/youtube/README.md)
+  * [External Content](external-content/README.md)
+    * [Blogs](external-content/blogs/README.md)
+      * [3 Patterns of Industrial IoT Use Cases XMPro.md](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
+    * [YouTube](external-content/youtube/README.md)
 
 ## Concepts
 
