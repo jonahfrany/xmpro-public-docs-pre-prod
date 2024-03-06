@@ -40,9 +40,10 @@
       * [Best Next Action Is The Next Big Thing For Intelli](external-content/blogs/best-next-action-is-the-next-big-thing-for-intelli.md)
       * [Create A Common Operating Picture Of Your Operatio](external-content/blogs/create-a-common-operating-picture-of-your-operatio.md)
       * [Digital Twin Applications For Realtime Operations](external-content/blogs/digital-twin-applications-for-realtime-operations.md)
-    * [YouTube](external-content/youtube/README.md)
+    * YouTube
       * [Jan 2023](external-content/youtube/JAN2023.md)
       * [Feb 2023](external-content/youtube/FEB2023.md)
+      * [Test](external-content/youtube)
 
 
 ## Concepts
