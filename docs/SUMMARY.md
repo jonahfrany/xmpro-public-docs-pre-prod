@@ -28,6 +28,7 @@
     * [Blogs](external-content/blogs/README.md)
       * [3 Patterns of Industrial IoT Use Cases XMPro.md](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
     * [YouTube](external-content/youtube/README.md)
+      * [Jan 2023](external-content/youtube/JAN2023.md)
 
 ## Concepts
 
