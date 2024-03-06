@@ -1,9 +1,10 @@
 import os
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urljoin
-from time import sleep
+from urllib.parse import urljoin  # Add this import statement
 import re
+import json
+from time import sleep
 
 def scrape_page(url):
     try:
@@ -25,6 +26,9 @@ def scrape_page(url):
             title = title_tag.get_text().strip()
         else:
             title = "Untitled"
+
+        # Truncate title if it's too long
+        title = title[:20]
 
         # Get content including headings
         content = ""
@@ -50,8 +54,8 @@ def scrape_page(url):
 
 def save_to_md(title, content, url, folder_path):
     try:
-        # Remove special characters from the title and replace spaces with underscores
-        filename = os.path.join(folder_path, f"{re.sub(r'[^\w\s]', '', title.strip().replace(' ', '_'))}.md")
+        # Truncate title for filename if it's too long
+        filename = os.path.join(folder_path, f"{re.sub(r'[^\w\s]', '', title.strip().replace(' ', '_'))[:20]}.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
@@ -104,6 +108,14 @@ def get_max_page_numbers(html, base_url):
             pass  # Ignore non-integer page numbers
     return max_page
 
+# Load JSON configuration
+with open('scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-blogs-config.json') as json_file:
+    config_data = json.load(json_file)
+
+# Retrieve folder path from JSON
+folder_path = config_data.get('folderPath', 'docs/external content/Blogs')
+os.makedirs(folder_path, exist_ok=True)
+
 # Example HTML snippet
 html_snippet = '''
 <ul class="page-numbers nav-pagination links text-center">
@@ -121,9 +133,6 @@ base_url = "https://xmpro.com/category/blog/"
 num_pages = get_max_page_numbers(html_snippet, base_url)
 
 all_blog_urls = get_all_blog_urls(base_url, num_pages)
-
-folder_path = "Blogs"
-os.makedirs(folder_path, exist_ok=True)
 
 for url in all_blog_urls:
     # Introduce a delay of 1 second before scraping each page

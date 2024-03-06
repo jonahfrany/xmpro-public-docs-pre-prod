@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from time import sleep
 import re
+import json
 
 def scrape_page_content(url):
     try:
@@ -35,13 +36,17 @@ def save_to_md(content, page_title, page_url, folder_path):
 
         # Ensure the title is not empty after removing special characters
         if title.strip():
-            filename = os.path.join(folder_path, f"{title.strip()[:50]}.md")
+            # Truncate title to a maximum of 20 characters
+            truncated_title = title.strip()[:20]
+            filename = os.path.join(folder_path, f"{truncated_title}.md")
         else:
             filename = os.path.join(folder_path, "Untitled.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
-            # Write page URL in the specified format
-            file.write(f"# {page_title}\n\nURL: [{page_url}]({page_url})\n\n")
+            # Write page title as main heading
+            file.write(f"# {page_title}\n\n")
+            # Write URL under the main heading in the specified format
+            file.write(f"URL: [{page_url}]({page_url})\n\n")
             file.write(content)
         print(f"Content saved to {filename}")
     except Exception as e:
@@ -64,6 +69,17 @@ def scrape_why_xmpro_pages():
         if dropdown_menu:
             # Find all links in the dropdown menu
             dropdown_links = dropdown_menu.find_all('a', href=True)
+            
+            # Define the path to the config file
+            config_file_path = 'scripts\XMPRO Website Scrape Scripts\scrape-xmpro-website-whyxmpro-config.json'
+
+            # Load JSON config file
+            with open(config_file_path) as json_file:
+                config_data = json.load(json_file)
+                folder_path = config_data.get("folderPath")
+
+            os.makedirs(folder_path, exist_ok=True)
+
             for link in dropdown_links:
                 page_url = urljoin(base_url, link['href'])
                 content_div = scrape_page_content(page_url)
