@@ -7,14 +7,18 @@ import json
 def truncate_title(title, max_chars=20):
     return title[:max_chars]
 
+# Function to convert title to filename format
+def format_filename(title):
+    return title.strip().replace("&", "").replace("/", "-").lower().replace(" ", "-")
+
 # Function to save content to Markdown file
 def save_to_md(title, content, url, folder_path):
     try:
-        # Sanitize the title to ensure it's suitable for use as a filename
-        sanitized_title = title.strip().replace("&", "").replace("/", "-")
+        # Format the title to use as filename
+        filename_title = format_filename(title)
         
         # Truncate the filename to a maximum of 20 characters
-        truncated_title = truncate_title(sanitized_title)
+        truncated_title = truncate_title(filename_title)
         
         filename = os.path.join(folder_path, f"{truncated_title}.md")
 
@@ -22,6 +26,7 @@ def save_to_md(title, content, url, folder_path):
             file.write(f"# {title}\n\n")
             file.write(f"URL: {url}\n\n")
             file.write(content)
+        
         print(f"Content saved to {filename}")
         return {'title': title, 'filename': filename}
     except Exception as e:
