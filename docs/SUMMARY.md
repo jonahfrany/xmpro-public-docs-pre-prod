@@ -26,9 +26,9 @@
   * [General](resources/faqs/general.md)
   * [External Content](external-content/README.md)
     * About
-      * [About1-Learn-MoreA](external-content/about/about-test.md)
-      * [Partners-XMPRO](external-content/about\Partners - XMPRO.md)
-      * [Press-Room-XMPRO](external-content/about\Press Room - XMPRO.md)
+      * [Learn More About XMPro](external-content/about/learn-more-about-xmpro.md)
+      * [Partners XMPro](external-content/about/partners-xmpro.md)
+      * [Press Room XMPRO](external-content/bout/press-room-xmpro.md)
     * [Blogs](external-content/blogs/README.md)
       * [3 Patterns of Industrial IoT Use Cases XMPro.md](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
       * [3 Ways The Internet Of Things Is Transforming Fiel](external-content/blogs/3-ways-the-internet-of-things-is-transforming-fiel.md)
@@ -44,7 +44,7 @@
       * [Jan 2023](external-content/youtube/jan-2023.md)
       * [Feb 2023](external-content/youtube/feb-2023.md)
       * [March 2023](external-content/youtube/march-2023.md)
-      * [March 2023](external-content/youtube/april-2023.md)
+      * [April 2023](external-content/youtube/april-2023.md)
 
 ## Concepts
 
