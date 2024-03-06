@@ -27,7 +27,7 @@
   * [External Content](external-content/README.md)
     * [Blogs](external-content/blogs/README.md)
       * [3 Patterns of Industrial IoT Use Cases XMPro.md](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
-      * [3 Patterns Of Industrial Iot Use Cases  Xmpro](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
+      * [3 Ways The Internet Of Things Is Transforming The Fiel.md](docs\external-content\Blogs\3-patterns-of-industrial-iot-use-cases--xmpro.md)
       * [6 Myths About Machine Learning.md](external-content\Blogs\6-myths-about-machine-learning--xmpro.md)
       * [7 Trends For Industrial Digital Twins In 2022.md](external-content\Blogs\7-trends-for-industrial-digital-twins-in-2022--xmp.md)
       * [10 Predictive Analytics Use Cases By Industry.md](external-content\Blogs\10-predictive-analytics-use-cases-by-industry--xmp.md)
