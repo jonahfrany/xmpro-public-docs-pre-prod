@@ -41,10 +41,8 @@
       * [Create A Common Operating Picture Of Your Operatio](external-content/blogs/create-a-common-operating-picture-of-your-operatio.md)
       * [Digital Twin Applications For Realtime Operations](external-content/blogs/digital-twin-applications-for-realtime-operations.md)
     * YouTube
-      * [Jan 2023](external-content/youtube/JAN2023.md)
+      * [Jan 2023](external-content/youtube/jan-2023.md)
       * [Feb 2023](external-content/youtube/FEB2023.md)
-      * [Test](external-content/youtube/TEST)
-
 
 ## Concepts
 
