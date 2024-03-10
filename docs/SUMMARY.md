@@ -45,6 +45,7 @@
       * [Feb 2023](external-content/youtube/feb-2023.md)
       * [March 2023](external-content/youtube/march-2023.md)
       * [April 2023](external-content/youtube/april-2023.md)
+      * [2023 Xmpro Product Roadmap   Webinar](2023-xmpro-product-roadmap---webinar.md)
 
 ## Concepts
 
