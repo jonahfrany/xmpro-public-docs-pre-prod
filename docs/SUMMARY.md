@@ -27,7 +27,7 @@
   * [External Content](external-content/README.md)
     * About
       * [Test----Xmpro](external-content/about/test.md)
-      * [Partners---Xmpro](external-content/about/Partners - XMPRO.md)
+      * [Partners---Xmpro](external-content/about/Press Room - XMPRO.md)
       * [Press-Room---Xmpro](external-content/about/Press Room - XMPRO.md)
     * Blogs
       * [From Reactive To Predictive  Introduction To Predi](external-content/blogs/from-reactive-to-predictive--introduction-to-predi.md)
