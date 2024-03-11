@@ -30,6 +30,7 @@
       * [Partners XMPro](external-content/about/partners-xmpro.md)
       * [Press Room XMPRO](external-content/bout/press-room-xmpro.md)
     * [Blogs](external-content/blogs/README.md)
+<!--   
       * [3 Patterns of Industrial IoT Use Cases XMPro.md](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
       * [3 Ways The Internet Of Things Is Transforming Fiel](external-content/blogs/3-ways-the-internet-of-things-is-transforming-fiel.md)
       * [6 Myths About Machine Learning  Xmpro](external-content/blogs/6-myths-about-machine-learning--xmpro.md)
@@ -41,7 +42,7 @@
       * [Create A Common Operating Picture Of Your Operatio](external-content/blogs/create-a-common-operating-picture-of-your-operatio.md)
       * [Digital Twin Applications For Realtime Operations](external-content/blogs/digital-twin-applications-for-realtime-operations.md)
       * [unlocking-efficiency-the-right-time--strategy-to-l](docs\external-content\blogs\unlocking-efficiency-the-right-time--strategy-to-l.md)
-      * [Robots](external-content\blogs\robotic-process-automation-for-iot--xmpro.md)
+      * [Robots](external-content\blogs\robotic-process-automation-for-iot--xmpro.md) -->
     * YouTube
       * [Jan 2023](external-content/youtube/jan-2023.md)
       * [Feb 2023](external-content/youtube/feb-2023.md)
