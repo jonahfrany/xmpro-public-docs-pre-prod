@@ -26,7 +26,7 @@
   * [General](resources/faqs/general.md)
   * [External Content](external-content/README.md)
     * About
-      * [About---Learn-More-A](external-content/about/About - Learn More A.md)
+      * [About---Learn-More-A](external-content/about/Partners - XMPRO.md)
       * [Partners---Xmpro](external-content/about/Partners - XMPRO.md)
       * [Press-Room---Xmpro](external-content/about/Press Room - XMPRO.md)
     * Blogs
