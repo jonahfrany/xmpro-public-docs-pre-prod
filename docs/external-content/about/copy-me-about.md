@@ -1,5 +1,5 @@
 # About
 
-* [About---Learn-More-A](external-content/about/About - Learn More A.md)
-* [Partners---Xmpro](external-content/about/Partners - XMPRO.md)
-* [Press-Room---Xmpro](external-content/about/Press Room - XMPRO.md)
+* [About---Learn-More-About-Xmpro'S-Digital-Twin-Software](external-content/about/about---learn-more-about-xmpro's-digital-twin-software.md)
+* [Partners---Xmpro](external-content/about/partners---xmpro.md)
+* [Press-Room---Xmpro](external-content/about/press-room---xmpro.md)

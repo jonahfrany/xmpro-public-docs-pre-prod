@@ -26,10 +26,9 @@
   * [General](resources/faqs/general.md)
   * [External Content](external-content/README.md)
     * About
-      * [Intelligent Integrat](docs/external-content/key-features/intelligent-integrat.md)
-      * [XMPro AI - XMPRO](docs/external-content/key-features/xmpro-ai---xmpro.md)
-      * [Interactive 3D Model](docs/external-content/key-features/interactive-3d-model.md)
-      * [Pricing - XMPRO](docs/external-content/key-features/pricing---xmpro.md)
+      * [About---Learn-More-About-Xmpro'S-Digital-Twin-Software](external-content/about/about---learn-more-about-xmpro's-digital-twin-software.md)
+      * [Partners---Xmpro](external-content/about/partners---xmpro.md)
+      * [Press-Room---Xmpro](external-content/about/press-room---xmpro.md)
     * Blogs
       * [From Reactive To Predictive  Introduction To Predi](external-content/blogs/from-reactive-to-predictive--introduction-to-predi.md)
       * [The Technology Behind Predictive Maintenance Pdm](external-content/blogs/the-technology-behind-predictive-maintenance-pdm.md)
@@ -264,12 +263,11 @@
       * [XMPro Joins Industrial Internet Consortium Smart Factory Machine Learning Testbed - XMPRO](external-content/latest-news/xmpro-joins-industri.md)
       * [New XMPro Agent Integration: Telit DeviceWise - XMPRO](external-content/latest-news/new-xmpro-agent-inte.md)
       * [XMPro Named a Sample Vendor for Digital Twins in 2021](external-content/latest-news/xmpro-named-a-sample.md)
-
     * Key Features
       * [Intelligent Integrat](external-content/key-features/intelligent-integrat.md)
       * [XMPro AI - XMPRO](external-content/key-features/xmpro-ai---xmpro.md)
-      * [Interactive 3D Model](docs/external-content/key-features/interactive-3d-model.md)
-      * [Pricing - XMPRO](docs/external-content/key-features/pricing---xmpro.md)
+      * [Interactive 3D Model](external-content/key-features/interactive-3d-model.md)
+      * [Pricing - XMPRO](external-content/key-features/pricing---xmpro.md)
 
 
     * YouTube
