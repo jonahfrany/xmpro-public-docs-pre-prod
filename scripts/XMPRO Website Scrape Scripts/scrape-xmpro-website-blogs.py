@@ -6,6 +6,7 @@ from time import sleep
 import re
 from pathlib import Path
 import json
+import string
 
 
 class BlogScraper:
@@ -104,7 +105,8 @@ class BlogScraper:
                 file.write("Exported Markdown Files:\n\n")
                 for exported_file in exported_files:
                     file_path = str(exported_file).replace("docs\\", "").replace("\\", "/")
-                    file.write(f"* [{exported_file.stem}]({file_path})\n")
+                    name = exported_file.stem.replace("-", " ").title()  # Capitalize first letter of each word
+                    file.write(f"* [{name}]({file_path})\n")
 
 
 if __name__ == "__main__":
