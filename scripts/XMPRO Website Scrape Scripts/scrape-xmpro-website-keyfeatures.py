@@ -70,7 +70,7 @@ def generate_readme(files, folder_path):
             # Get the relative path of the file
             relative_path = os.path.relpath(file_info['filename'], folder_path)
             # Remove "docs/" prefix from the relative path if it exists
-            relative_path = relative_path.replace("docs/", "")
+            relative_path = relative_path.replace("docs/", " ")
             # Append the folder path and filename to the README content
             readme_content.append(f"* [{file_info['title']}]({folder_path}/{relative_path.replace(os.sep, '/')})\n")
         

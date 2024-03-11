@@ -101,6 +101,12 @@
       * [Lean Digital Twin Part 1  Xmpro](external-content/blogs/lean-digital-twin-part-1--xmpro.md)
       * [From The Control Room To The Bedroom  Xmpro](external-content/blogs/from-the-control-room-to-the-bedroom--xmpro.md)
       * [Is Mobile Bpm Now Essential To The Business  Xmpro](external-content/blogs/is-mobile-bpm-now-essential-to-the-business--xmpro.md)
+    * Key Features
+      * [Intelligent Integrat](docs/external-content/key-features/intelligent-integrat.md)
+      * [XMPro AI - XMPRO](docs/external-content/key-features/xmpro-ai---xmpro.md)
+      * [Interactive 3D Model](docs/external-content/key-features/interactive-3d-model.md)
+      * [Pricing - XMPRO](docs/external-content/key-features/pricing---xmpro.md)
+
 
     * YouTube
       * [Jan 2023](external-content/youtube/jan-2023.md)
