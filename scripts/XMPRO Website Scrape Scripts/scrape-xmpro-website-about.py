@@ -9,9 +9,10 @@ def truncate_title(title, max_chars=20):
 
 # Function to convert title to filename format
 def format_filename(title):
-    return title.strip().replace("&", "").replace("/", "-").lower().replace(" ", "-")
+    return title.strip().replace("&", "").replace("/", "-").replace(" ", "-").lower()
 
-# Function to save content to Markdown file
+
+# Function to save content to Markdown file with renamed file
 def save_to_md(title, content, url, folder_path):
     try:
         # Format the title to use as filename
@@ -20,6 +21,7 @@ def save_to_md(title, content, url, folder_path):
         # Truncate the filename to a maximum of 20 characters
         truncated_title = truncate_title(filename_title)
         
+        # Rename the file as the page title but in lowercase, and replace all spaces with "-"
         filename = os.path.join(folder_path, f"{truncated_title}.md")
 
         with open(filename, 'w', encoding='utf-8') as file:
@@ -31,6 +33,7 @@ def save_to_md(title, content, url, folder_path):
         return {'title': title, 'filename': filename}
     except Exception as e:
         print(f"Error occurred while saving to file: {e}")
+
 
 # Function to scrape content from each page
 def scrape_page(url, folder_path):
@@ -87,7 +90,7 @@ def scrape_page(url, folder_path):
 # Function to update or create README.md with hyperlinks to exported markdown files
 def update_readme(folder_path, md_files, title):
     try:
-        readme_file = os.path.join(folder_path, "copy-me-about.md")
+        readme_file = os.path.join(folder_path, "README.md")
         with open(readme_file, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
             for md_file in md_files:
@@ -100,7 +103,7 @@ def update_readme(folder_path, md_files, title):
                 file.write(f"* [{formatted_title}]({formatted_filename})\n")
         print(f"README.md updated with hyperlinks to exported markdown files.")
     except Exception as e:
-        print(f"Error occurred while updating copy-me-about.md: {e}")
+        print(f"Error occurred while updating README.md: {e}")
 
 # Main function
 def main():
@@ -133,7 +136,7 @@ def main():
         if md_files:
             update_readme(folder_path, md_files, "About")
         else:
-            print("No markdown files found to update copy-me-about.md.")
+            print("No markdown files found to update README.md.")
     else:
         print("Folder path not found in config.")
 

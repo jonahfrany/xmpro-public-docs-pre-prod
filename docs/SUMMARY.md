@@ -26,9 +26,10 @@
   * [General](resources/faqs/general.md)
   * [External Content](external-content/README.md)
     * About
-      * [Test----Xmpro](external-content/about/test.md)
-      * [Partners---Xmpro](external-content/about/test.md)
-      * [Press-Room---Xmpro](external-content/about/Press Room - XMPRO.md)
+      * [Intelligent Integrat](docs/external-content/key-features/intelligent-integrat.md)
+      * [XMPro AI - XMPRO](docs/external-content/key-features/xmpro-ai---xmpro.md)
+      * [Interactive 3D Model](docs/external-content/key-features/interactive-3d-model.md)
+      * [Pricing - XMPRO](docs/external-content/key-features/pricing---xmpro.md)
     * Blogs
       * [From Reactive To Predictive  Introduction To Predi](external-content/blogs/from-reactive-to-predictive--introduction-to-predi.md)
       * [The Technology Behind Predictive Maintenance Pdm](external-content/blogs/the-technology-behind-predictive-maintenance-pdm.md)
