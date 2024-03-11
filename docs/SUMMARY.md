@@ -101,6 +101,8 @@
       * [Lean Digital Twin Part 1  Xmpro](external-content/blogs/lean-digital-twin-part-1--xmpro.md)
       * [From The Control Room To The Bedroom  Xmpro](external-content/blogs/from-the-control-room-to-the-bedroom--xmpro.md)
       * [Is Mobile Bpm Now Essential To The Business  Xmpro](external-content/blogs/is-mobile-bpm-now-essential-to-the-business--xmpro.md)
+    * Latest News
+      * [XMPro named as a Sample Vendor for Digital Twins in the Gartner® Emerging Tech Impact Radar: Edge Artificial Intelligence 2024 Report - XMPRO](external-content/latest-news/xmpro-named-as-a-sam.md)
     * Key Features
       * [Intelligent Integrat](external-content/key-features/intelligent-integrat.md)
       * [XMPro AI - XMPRO](external-content/key-features/xmpro-ai---xmpro.md)
