@@ -103,7 +103,8 @@ class BlogScraper:
             with open(readme_file, "w", encoding="utf-8") as file:
                 file.write("Exported Markdown Files:\n\n")
                 for exported_file in exported_files:
-                    file.write(f"* [{exported_file.stem}]({exported_file})\n")
+                    file_path = str(exported_file).replace("docs\\", "").replace("\\", "/")
+                    file.write(f"* [{exported_file.stem}]({file_path})\n")
 
 
 if __name__ == "__main__":

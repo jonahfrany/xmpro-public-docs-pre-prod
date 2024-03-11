@@ -41,9 +41,9 @@
       * [Best Next Action Is The Next Big Thing For Intelli](external-content/blogs/best-next-action-is-the-next-big-thing-for-intelli.md)
       * [Create A Common Operating Picture Of Your Operatio](external-content/blogs/create-a-common-operating-picture-of-your-operatio.md)
       * [Digital Twin Applications For Realtime Operations](external-content/blogs/digital-twin-applications-for-realtime-operations.md)
-      * [unlocking-efficiency-the-right-time--strategy-to-l](external-content/blogs/unlocking-efficiency-the-right-time--strategy-to-l.md)
-
-      * [Robots](external-content/blogs/robotic-process-automation-for-iot--xmpro.md)
+      * [robotic-process-automation-for-iot--xmpro](external-content/blogs/robotic-process-automation-for-iot--xmpro.md)
+      * [how-to-prioritise-processes--xmpro](external-content/blogs/how-to-prioritise-processes--xmpro.md)
+      * [from-the-control-room-to-the-bedroom--xmpro](external-content/blogs/from-the-control-room-to-the-bedroom--xmpro.md)
     * YouTube
       * [Jan 2023](external-content/youtube/jan-2023.md)
       * [Feb 2023](external-content/youtube/feb-2023.md)
