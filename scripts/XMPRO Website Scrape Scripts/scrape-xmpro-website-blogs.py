@@ -99,7 +99,7 @@ class BlogScraper:
                 file.writelines(errors)
 
         if exported_files and save:
-            readme_file = path / "README.md"
+            readme_file = path / "copy-me-blogs.md"
             with open(readme_file, "w", encoding="utf-8") as file:
                 file.write("Exported Markdown Files:\n\n")
                 for exported_file in exported_files:

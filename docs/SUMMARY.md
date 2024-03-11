@@ -29,7 +29,6 @@
       * [Learn More About XMPro](external-content/about/learn-more-about-xmpro.md)
       * [Partners XMPro](external-content/about/partners-xmpro.md)
       * [Press Room XMPRO](external-content/bout/press-room-xmpro.md)
-    <!-- * [Blogs](external-content/blogs/README.md) -->
     * Blogs
       * [3 Patterns of Industrial IoT Use Cases XMPro.md](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
       * [3 Ways The Internet Of Things Is Transforming Fiel](external-content/blogs/3-ways-the-internet-of-things-is-transforming-fiel.md)
@@ -41,8 +40,7 @@
       * [Best Next Action Is The Next Big Thing For Intelli](external-content/blogs/best-next-action-is-the-next-big-thing-for-intelli.md)
       * [Create A Common Operating Picture Of Your Operatio](external-content/blogs/create-a-common-operating-picture-of-your-operatio.md)
       * [Digital Twin Applications For Realtime Operations](external-content/blogs/digital-twin-applications-for-realtime-operations.md)
-      * [robotic-process-automation-for-iot--xmpro](external-content/blogs/robotic-process-automation-for-iot--xmpro.md)
-      * [how-to-prioritise-processes--xmpro](external-content/blogs/how-to-prioritise-processes--xmpro.md)
+      * [what-is-a-digital-business-platform-and-why-should](external-content/blogs/what-is-a-digital-business-platform-and-why-should.md)
       * [from-the-control-room-to-the-bedroom--xmpro](external-content/blogs/from-the-control-room-to-the-bedroom--xmpro.md)
     * YouTube
       * [Jan 2023](external-content/youtube/jan-2023.md)
