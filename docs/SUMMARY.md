@@ -29,7 +29,8 @@
       * [Learn More About XMPro](external-content/about/learn-more-about-xmpro.md)
       * [Partners XMPro](external-content/about/partners-xmpro.md)
       * [Press Room XMPRO](external-content/bout/press-room-xmpro.md)
-    * [Blogs](external-content/blogs/README.md)
+    <!-- * [Blogs](external-content/blogs/README.md) -->
+    * Blogs
       * [3 Patterns of Industrial IoT Use Cases XMPro.md](external-content/blogs/3-patterns-of-industrial-iot-use-cases--xmpro.md)
       * [3 Ways The Internet Of Things Is Transforming Fiel](external-content/blogs/3-ways-the-internet-of-things-is-transforming-fiel.md)
       * [6 Myths About Machine Learning  Xmpro](external-content/blogs/6-myths-about-machine-learning--xmpro.md)
