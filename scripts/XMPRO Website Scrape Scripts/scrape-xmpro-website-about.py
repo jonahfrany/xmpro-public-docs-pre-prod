@@ -87,14 +87,20 @@ def scrape_page(url, folder_path):
 # Function to update or create README.md with hyperlinks to exported markdown files
 def update_readme(folder_path, md_files, title):
     try:
-        readme_file = os.path.join(folder_path, "README.md")
+        readme_file = os.path.join(folder_path, "copy-me-about.md")
         with open(readme_file, 'w', encoding='utf-8') as file:
             file.write(f"# {title}\n\n")
             for md_file in md_files:
-                file.write(f"* [{md_file['title']}]({md_file['filename']})\n")
+                # Capitalize the first letter of each word in the title
+                formatted_title = md_file['title'].title().replace(" ", "-")
+                
+                # Remove "docs/" in the file path location and replace "\" with "/"
+                formatted_filename = md_file['filename'].replace("docs/", "").replace("\\", "/")
+                
+                file.write(f"* [{formatted_title}]({formatted_filename})\n")
         print(f"README.md updated with hyperlinks to exported markdown files.")
     except Exception as e:
-        print(f"Error occurred while updating README.md: {e}")
+        print(f"Error occurred while updating copy-me-about.md: {e}")
 
 # Main function
 def main():
@@ -127,7 +133,7 @@ def main():
         if md_files:
             update_readme(folder_path, md_files, "About")
         else:
-            print("No markdown files found to update README.md.")
+            print("No markdown files found to update copy-me-about.md.")
     else:
         print("Folder path not found in config.")
 

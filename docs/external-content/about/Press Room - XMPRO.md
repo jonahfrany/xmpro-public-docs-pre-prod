@@ -98,7 +98,3 @@ C:60 M:0 Y:15 K:0
 
 <img src="https://xmpro.com/wp-content/uploads/2020/04/XMPro-team.jpg" width="800" height="800">
 
-### Company Overview
-
-<img src="https://xmpro.com/wp-content/uploads/2020/04/Company-Profile.png" width="800" height="800">
-

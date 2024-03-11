@@ -26,9 +26,9 @@
   * [General](resources/faqs/general.md)
   * [External Content](external-content/README.md)
     * About
-      * [Learn More About XMPro](external-content/about/learn-more-about-xmpro.md)
-      * [Partners XMPro](external-content/about/partners-xmpro.md)
-      * [Press Room XMPRO](external-content/bout/press-room-xmpro.md)
+      * [About---Learn-More-A](external-content/about/About - Learn More A.md)
+      * [Partners---Xmpro](external-content/about/Partners - XMPRO.md)
+      * [Press-Room---Xmpro](external-content/about/Press Room - XMPRO.md)
     * Blogs
       * [From Reactive To Predictive  Introduction To Predi](external-content/blogs/from-reactive-to-predictive--introduction-to-predi.md)
       * [The Technology Behind Predictive Maintenance Pdm](external-content/blogs/the-technology-behind-predictive-maintenance-pdm.md)
